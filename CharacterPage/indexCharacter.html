@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character Jenshin ImpekZ</title>
+    <link data-n-head="true" rel="icon" type="image/x-icon" href="https://drive.google.com/uc?export=view&id=1B7y58WTRNrf3XxTHDKI7CWvMVqMZ4k19">
+    <link rel="stylesheet" href="styleCharacter.css">
+
+</head>
+<body>
+     <header>
+         <div class="navLogo">
+             <img src="https://drive.google.com/uc?export=view&id=1B7y58WTRNrf3XxTHDKI7CWvMVqMZ4k19" class="nav_logo" />
+         </div>
+         <div class="hamburger">
+             <div class="line"></div>
+             <div class="line"></div>
+             <div class="line"></div>
+         </div>
+         <nav class="nav-bar">
+             <ul>
+                <li><a href="../HomePage/indexHome.html">Home</a></li>
+                <li><a href="../CharacterPage/indexCharacter.html" class="active">Character</a></li>
+                <li><a href="../MapsPage/indexMaps.html">Map</a></li>
+                <li><a href="../AboutPage/indexAboutGame.html">About</a></li>
+                <li><a href="../RegisterPage/indexRegister.html">Register</a></li>
+             </ul>
+         </nav>
+     </header>
+
+     <script>
+         hamburger = document.querySelector(".hamburger");
+         hamburger.onclick = function () {
+             navBar = document.querySelector(".nav-bar")
+             navBar.classList.toggle("active");
+         }
+     </script>
+
+    <div class="sidebar">
+        <div class="line"></div>
+        <div class="wrap">
+            <button id="mondstadt_char_menu" class="tablinks activee" onclick="openChar(event, 'mondstadt_char')">
+                <div class="icon"></div>
+                <div class="text">Mondstadt</div>
+            </button>
+            <button id="liyue_char_menu" class="tablinks each" onclick="openChar(event, 'liyue_char')">
+                <div class="icon"></div>
+                <div class="text">Liyue</div>
+            </button>
+            <button id="inazuma_char_menu" class="tablinks each" onclick="openChar(event, 'inazuma_char')">
+                <div class="icon"></div>
+                <div class="text">Inazuma</div>
+            </button>
+            <button id="sumeru_char_menu" class="tablinks each" onclick="openChar(event, 'sumeru_char')">
+                <div class="icon"></div>
+                <div class="text">Sumeru</div>
+            </button>
+        </div>
+    </div>     
+
+    <div id="mondstadt_char" class="chars">
+        <img src="https://drive.google.com/uc?export=view&id=1MTi51o0yj1aola-bqVD49l0E271GwCeM" alt="" class="bg">
+        <div class="title_bg">
+            <p class="char_intro">Character Introduction</p>
+            <p class="region_intro">Mondstadt</p>
+        </div>
+        <div class="wrap_char">
+            <a id="char_mon_1" href="#popup_mon_1">
+                <img src="https://drive.google.com/uc?export=view&id=1g_EFCklwD_1DYbCzFjnOagIcM1RuhOUD" class="charF" alt="">
+            </a>
+            <a id="char_mon_2" href="#popup_mon_2">
+                <img src="https://drive.google.com/uc?export=view&id=1IAfKMo--9W5eN5EpI26rKWNlDbYOmO72" class="charF" alt="">
+            </a>
+            <a id="char_mon_3" href="#popup_mon_3">
+                <img src="https://drive.google.com/uc?export=view&id=1ItrwJd058KnEeBOP07i9GcaB8ljMu3MP" class="charF" alt="">
+            </a>
+        </div>
+
+        <div id="popup_mon_1" class="popup_details">
+            <div class="wrapper">
+                <img src="https://drive.google.com/uc?export=view&id=1J5kK7T3S2PgVvukUCetCZ6qZ40Ke2B6W" class="border">
+                <div class="container">
+                    <a href="#" class="box-close"></a>
+                    <img src="https://drive.google.com/uc?export=view&id=1Dt6dkU62AqPDXptcBTHSg0sAA4cl8Am-" alt="" class="bg-logo">
+                    <div class="title">
+                        <div class="element tosca">
+                            <h1>Diona</h1>
+                        </div>
+                    </div>
+                    <img src="https://drive.google.com/uc?export=view&id=1ssvChrXGBUZ0J8PKJLGHmGK76yYnfBYg" alt=""
+                        class="char">
+                    <div class="desc">
+                        <img src="https://drive.google.com/uc?export=view&id=1ImS2ABJVL3XkczEDEf2XPSwVMKqoRbQy" alt=""
+                            class="star">
+                        <p>The incredibly popular bartender of the Cat's Tail tavern, rising star of Mondstadt's wine industry, and the greatest challenger to its traditional powerhouses.The incredibly popular bartender of the Cat's Tail tavern, rising star of Mondstadt's wine industry, and the greatest challenger to its traditional powerhouses.<br><br>
+                            A feisty feline young lady from Springvale, any drink mixed by Diona's hand tastes delicious beyond belief.<br><br>
+                            Yet given her extreme distaste for alcohol, is her talent a blessing or a curse?
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="popup_mon_2" class="popup_details">
+            <div class="wrapper">
+                <img src="https://drive.google.com/uc?export=view&id=1J5kK7T3S2PgVvukUCetCZ6qZ40Ke2B6W" class="border">
+                <div class="container">
+                    <a href="#" class="box-close"></a>
+                    <img src="https://drive.google.com/uc?export=view&id=1Dt6dkU62AqPDXptcBTHSg0sAA4cl8Am-" alt="" class="bg-logo">
+                    <div class="title">
+                        <div class="element kuning">
+                            <h1>Albedo</h1>
+                        </div>
+                    </div>
+                    <img src="https://drive.google.com/uc?export=view&id=1tO0lPubRQHha9ZgGEsuzduz21FKWM1qP" alt="" class="char">
+                    <div class="desc">
+                        <img src="https://drive.google.com/uc?export=view&id=1u7nFQOk5WmltOd16RVGURmFefTt9ldph" alt="" class="star">
+                        <p>Albedo — an alchemist based in Mondstadt, in the service of the Knights of Favonius.<br><br> 
+                            "Genius," "Kreideprinz," or "Captain of the Investigation Team"... Such titles and honors are of no consequence to him when there is so much more research to conduct.<br><br> 
+                            The pursuit of fortune and connections cannot hold a candle to his heart's desire — acquiring the limitless, obscure knowledge left behind by previous generations of scholars.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="popup_mon_3" class="popup_details">
+            <div class="wrapper">
+                <img src="https://drive.google.com/uc?export=view&id=1J5kK7T3S2PgVvukUCetCZ6qZ40Ke2B6W" class="border">
+                <div class="container">
+                    <a href="#" class="box-close"></a>
+                    <img src="https://drive.google.com/uc?export=view&id=1Dt6dkU62AqPDXptcBTHSg0sAA4cl8Am-" alt=""
+                        class="bg-logo">
+                    <div class="title">
+                        <div class="element hijaumuda">
+                            <h1>Venti</h1>
+                        </div>
+                    </div>
+                    <img src="https://drive.google.com/uc?export=view&id=1nU-Pshb2SBsO8lYWmloNRxtekqHLrKOp" alt=""
+                        class="char">
+                    <div class="desc">
+                        <img src="https://drive.google.com/uc?export=view&id=1u7nFQOk5WmltOd16RVGURmFefTt9ldph" alt="" class="star">
+                        <p>A bard that seems to have arrived on some unknown wind — sometimes sings songs as old as the hills, and other times recites poems fresh and new.<br><br> 
+                            Likes apples and lively places, but is not a fan of cheese or anything sticky.<br><br> 
+                            When using his Anemo power to control the wind, it often appears as feathers, as he's fond of that which appears light and breezy.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="liyue_char" class="chars">
+        <img src="https://drive.google.com/uc?export=view&id=1dz22WpOhFJycyCJsVSeMc-fTFZbPHTTa" alt="" class="bg">
+        <div class="title_bg">
+            <p class="char_intro">Character Introduction</p>
+            <p class="region_intro">Liyue</p>
+        </div>
+        <div class="wrap_char">
+            <a id="char_li_1" href="#popup_li_1">
+                <img src="https://drive.google.com/uc?export=view&id=1ZAvKbMnaEZHcDZbF_ALwL3K7NU3Lu15W" class="charF" alt="">
+            </a>
+            <a id="char_li_2" href="#popup_li_2">
+                <img src="https://drive.google.com/uc?export=view&id=1hy7k_qPge9MPRreSwIUOgrFUZXNgqZql" class="charF" alt="">
+            </a>
+            <a id="char_li_3" href="#popup_li_3">
+                <img src="https://drive.google.com/uc?export=view&id=1FG-rgNFL9NBSxEm0uHaow9rCAlRhVwfI" class="charF" alt="">
+            </a>
+        </div>
+
+        <div id="popup_li_1" class="popup_details">
+            <div class="wrapper">
+                <img src="https://drive.google.com/uc?export=view&id=1J5kK7T3S2PgVvukUCetCZ6qZ40Ke2B6W" class="border">
+                <div class="container">
+                    <a href="#" class="box-close"></a>
+                    <img src="https://drive.google.com/uc?export=view&id=1txO9u-M0SAZovKQYpXOzOlXoGkKZmrPT" alt="" class="bg-logo">
+                    <div class="title">
+                        <div class="element birutua">
+                            <h1>Xingqiu</h1>
+                        </div>
+                    </div>
+                    <img src="https://drive.google.com/uc?export=view&id=18OtTDB0SRHN8sRB8QJNro6gQfwlSgCQL" alt="" class="char">
+                    <div class="desc">
+                        <img src="https://drive.google.com/uc?export=view&id=1ImS2ABJVL3XkczEDEf2XPSwVMKqoRbQy" alt="" class="star">
+                        <p>Second son of the Feiyun Commerce Guild, Xingqiu has had a reputation for being studious and polite ever since he was a young child.<br><br>
+                            But there is another side to the mild-mannered Xingqiu everyone knows. A daring, adventurous and much more mischievous side...
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="popup_li_2" class="popup_details">
+            <div class="wrapper">
+                <img src="https://drive.google.com/uc?export=view&id=1J5kK7T3S2PgVvukUCetCZ6qZ40Ke2B6W" class="border">
+                <div class="container">
+                    <a href="#" class="box-close"></a>
+                    <img src="https://drive.google.com/uc?export=view&id=1txO9u-M0SAZovKQYpXOzOlXoGkKZmrPT" alt="" class="bg-logo">
+                    <div class="title">
+                        <div class="element ungu">
+                            <h1>Keqing</h1>
+                        </div>
+                    </div>
+                    <img src="https://drive.google.com/uc?export=view&id=1LaLirKDeMfiivwERV3gQRGlw6QSS2McT" alt="" class="char">
+                    <div class="desc">
+                        <img src="https://drive.google.com/uc?export=view&id=1u7nFQOk5WmltOd16RVGURmFefTt9ldph" alt="" class="star">
+                        <p>The Yuheng of the Liyue Qixing. Keqing has much to say about Rex Lapis' unilateral approach to policymaking in Liyue ⁠— but in truth, gods admire skeptics such as her quite a lot.<br><br>
+                            She firmly believes that humanity's future should be determined by humans themselves, and that they can even do better than the archons and adepti have done for them. In order to prove this, she works harder than anyone else.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="popup_li_3" class="popup_details">
+            <div class="wrapper">
+                <img src="https://drive.google.com/uc?export=view&id=1J5kK7T3S2PgVvukUCetCZ6qZ40Ke2B6W" class="border">
+                <div class="container">
+                    <a href="#" class="box-close"></a>
+                    <img src="https://drive.google.com/uc?export=view&id=1txO9u-M0SAZovKQYpXOzOlXoGkKZmrPT" alt="" class="bg-logo">
+                    <div class="title">
+                        <div class="element hijaumuda">
+                            <h1>Xiao</h1>
+                        </div>
+                    </div>
+                    <img src="https://drive.google.com/uc?export=view&id=1WjQ9B3zLebdQvYkKWmhx1JnezrWlzuj-" alt="" class="char">
+                    <div class="desc">
+                        <img src="https://drive.google.com/uc?export=view&id=1u7nFQOk5WmltOd16RVGURmFefTt9ldph" alt="" class="star">
+                        <p>One of the mighty and illuminated adepti guarding Liyue, also heralded as the "Vigilant Yaksha." Despite his youthful appearance, tales of his exploits have been documented for millennia.<br><br>
+                        He is especially fond of Wangshu Inn's Almond Tofu. This is because it tastes just like the sweet dreams he used to devour.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="inazuma_char" class="chars">
+        <img src="https://drive.google.com/uc?export=view&id=1lhnNJEDLfAaiUUKJ6h4pVTCACoJ7lOTi" alt="" class="bg">
+        <div class="title_bg">
+            <p class="char_intro">Character Introduction</p>
+            <p class="region_intro">Inazuma</p>
+        </div>
+        <div class="wrap_char">
+            <a id="char_in_1" href="#popup_in_1">
+                <img src="https://drive.google.com/uc?export=view&id=1VkC_sx_99OOSMELg4R8tZ1AgV2NWneJM" class="charF" alt="">
+            </a>
+            <a id="char_in_2" href="#popup_in_2">
+                <img src="https://drive.google.com/uc?export=view&id=1Jfhyi0AZjyOTZIML_prVHj0GMQfPi7aj" class="charF" alt="">
+            </a>
+            <a id="char_in_3" href="#popup_in_3">
+                <img src="https://drive.google.com/uc?export=view&id=1gPAC2LHy9mgrPJUGSC6N_47ZrVu-GO0R" class="charF" alt="">
+            </a>
+        </div>
+
+        <div id="popup_in_1" class="popup_details">
+            <div class="wrapper">
+                <img src="https://drive.google.com/uc?export=view&id=1J5kK7T3S2PgVvukUCetCZ6qZ40Ke2B6W" class="border">
+                <div class="container">
+                    <a href="#" class="box-close"></a>
+                    <img src="https://drive.google.com/uc?export=view&id=1mcFfB7Z_nRq7KGsZI9-eH4m5_vMFjM4q" alt="" class="bg-logo">
+                    <div class="title">
+                        <div class="element kuning">
+                            <h1>Garou</h1>
+                        </div>
+                    </div>
+                    <img src="https://drive.google.com/uc?export=view&id=1EghsUG-JVqqz36sVS63Di0aMaCirD5fx" alt="" class="char">
+                    <div class="desc">
+                        <img src="https://drive.google.com/uc?export=view&id=1ImS2ABJVL3XkczEDEf2XPSwVMKqoRbQy" alt="" class="star">
+                        <p>
+                            The great general of Watatsumi Island's forces. He has gained respect and prestige, but always shows himself to be a humble leader.<br><br>
+                            He is deeply trusted by his subordinates and is someone with whom you can share your feelings without shame.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="popup_in_2" class="popup_details">
+            <div class="wrapper">
+                <img src="https://drive.google.com/uc?export=view&id=1J5kK7T3S2PgVvukUCetCZ6qZ40Ke2B6W" class="border">
+                <div class="container">
+                    <a href="#" class="box-close"></a>
+                    <img src="https://drive.google.com/uc?export=view&id=1mcFfB7Z_nRq7KGsZI9-eH4m5_vMFjM4q" alt="" class="bg-logo">
+                    <div class="title">
+                        <div class="element ungu">
+                            <h1>Raiden Shogun</h1>
+                        </div>
+                    </div>
+                    <img src="https://drive.google.com/uc?export=view&id=1jbm6Z1aoXDhAYgDr68oXKEaKk0fFwXYj" alt="" class="char">
+                    <div class="desc">
+                        <img src="https://drive.google.com/uc?export=view&id=1u7nFQOk5WmltOd16RVGURmFefTt9ldph" alt="" class="star">
+                        <p>
+                            The Raiden Shogun is the awesome and terrible power of thunder incarnate, the exalted ruler of the Inazuma Shogunate.<br><br>
+                            With the might of lightning at her disposal, she commits herself to the solitary pursuit of eternity.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="popup_in_3" class="popup_details">
+            <div class="wrapper">
+                <img src="https://drive.google.com/uc?export=view&id=1J5kK7T3S2PgVvukUCetCZ6qZ40Ke2B6W" class="border">
+                <div class="container">
+                    <a href="#" class="box-close"></a>
+                    <img src="https://drive.google.com/uc?export=view&id=1mcFfB7Z_nRq7KGsZI9-eH4m5_vMFjM4q" alt="" class="bg-logo">
+                    <div class="title">
+                        <div class="element ungu">
+                            <h1>Kujou Sara</h1>
+                        </div>
+                    </div>
+                    <img src="https://drive.google.com/uc?export=view&id=1JGdC6DsU81zO9K3pq3ba-Y2_rVljyDus" alt="" class="char">
+                    <div class="desc">
+                        <img src="https://drive.google.com/uc?export=view&id=1ImS2ABJVL3XkczEDEf2XPSwVMKqoRbQy" alt="" class="star">
+                        <p> 
+                            Leader of the Tenryou Commission's forces. A charismatic woman who acts as swiftly as a storm wind and always honors her word.<br><br>
+                            She bears the title of "Devotee of the Divine" and has sworn her allegiance to the Raiden Shogun. The eternity that the Shogun pursues is the cause that she is willing to fight for.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="sumeru_char" class="chars">
+        <img src="https://drive.google.com/uc?export=view&id=1qrywMtuTnrI_8ETsGHPfjHgdGlTI5wPW" alt="" class="bg">
+        <div class="title_bg">
+            <p class="char_intro">Character Introduction</p>
+            <p class="region_intro">Sumeru</p>
+        </div>
+        <div class="wrap_char">
+            <a id="char_su_1" href="#popup_su_1">
+                <img src="https://drive.google.com/uc?export=view&id=1H0NAyFrLCxswQyKXm-GoRcH0kd7Vydfl" class="charF" alt="">
+            </a>
+            <a id="char_su_2" href="#popup_su_2">
+                <img src="https://drive.google.com/uc?export=view&id=1IxwHSn4D5jxSqtl4O0_abxJw4fsoubyT" class="charF" alt="">
+            </a>
+            <a id="char_su_3" href="#popup_su_3">
+                <img src="https://drive.google.com/uc?export=view&id=1E2wP-rdZvufxbXDlZPIS1Ojm9gCnzS0q" class="charF" alt="">
+            </a>
+        </div>
+
+        <div id="popup_su_2" class="popup_details">
+            <div class="wrapper">
+                <img src="https://drive.google.com/uc?export=view&id=1J5kK7T3S2PgVvukUCetCZ6qZ40Ke2B6W" class="border">
+                <div class="container">
+                    <a href="#" class="box-close"></a>
+                    <img src="https://drive.google.com/uc?export=view&id=1-kLrB3uqJuw5urja1bnbQR-I0ZQ5LMYG" alt="" class="bg-logo">
+                    <div class="title">
+                        <div class="element tosca">
+                            <h1>Nilou</h1>
+                        </div>
+                    </div>
+                    <img src="https://drive.google.com/uc?export=view&id=1fZbGQdm7VzMYvh0mIiCQX2PFcw5nLzvT" alt="" class="char">
+                    <div class="desc">
+                        <img src="https://drive.google.com/uc?export=view&id=1u7nFQOk5WmltOd16RVGURmFefTt9ldph" alt="" class="star">
+                        <p>
+                            Star of the Zubayr Theater. Her dance is as graceful as a water lily in first bloom, pure and pristine.<br><br>
+                            But she is by no means a haughty and cold person. Even the most hurried traveler will not forget her innocent and radiant smile.    
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="popup_su_1" class="popup_details">
+            <div class="wrapper">
+                <img src="https://drive.google.com/uc?export=view&id=1J5kK7T3S2PgVvukUCetCZ6qZ40Ke2B6W" class="border">
+                <div class="container">
+                    <a href="#" class="box-close"></a>
+                    <img src="https://drive.google.com/uc?export=view&id=1-kLrB3uqJuw5urja1bnbQR-I0ZQ5LMYG" alt="" class="bg-logo">
+                    <div class="title">
+                        <div class="element birutua">
+                            <h1>Candace</h1>
+                        </div>
+                    </div>
+                    <img src="https://drive.google.com/uc?export=view&id=1Iyrd21MjBLdkM0kgkFQPUa_qZTjdJp1K" alt="" class="char">
+                    <div class="desc">
+                        <img src="https://drive.google.com/uc?export=view&id=1ImS2ABJVL3XkczEDEf2XPSwVMKqoRbQy" alt="" class="star">
+                        <p>
+                            The guardian of Aaru Village who is gentle and benevolent. She will not allow anyone to harm Aaru Village under her watch.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="popup_su_3" class="popup_details">
+            <div class="wrapper">
+                <img src="https://drive.google.com/uc?export=view&id=1J5kK7T3S2PgVvukUCetCZ6qZ40Ke2B6W" class="border">
+                <div class="container">
+                    <a href="#" class="box-close"></a>
+                    <img src="https://drive.google.com/uc?export=view&id=1-kLrB3uqJuw5urja1bnbQR-I0ZQ5LMYG" alt="" class="bg-logo">
+                    <div class="title">
+                        <div class="element ungu">
+                            <h1>Cyno</h1>
+                        </div>
+                    </div>
+                    <img src="https://drive.google.com/uc?export=view&id=19y648JrPIL8KVQWfUymXL1OX9lEG3XA7" alt="" class="char">
+                    <div class="desc">
+                        <img src="https://drive.google.com/uc?export=view&id=1u7nFQOk5WmltOd16RVGURmFefTt9ldph" alt="" class="star">
+                        <p>
+                           The General Mahamatra of the Akademiya, leader of all the Matras. He has a unique sense of humor that never fails to leave a deep impression.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+		<footer>
+			<div class="footer">
+				<div class="logoFooter">
+					<img src="https://drive.google.com/uc?export=view&id=1B7y58WTRNrf3XxTHDKI7CWvMVqMZ4k19" alt="">
+				</div>
+
+				<ul class="socialFooter">
+                    <li><a href="/"><img src="https://drive.google.com/uc?export=view&id=1OZdSSuOloRSF15xD4mdcenhA0lFgawtC"></a></li>
+                    <li><a href="/"><img src="https://drive.google.com/uc?export=view&id=1b9Vw2h7Mb5DRsoHlXtsh899q7s5CXclN"></a></li>
+                    <li><a href="/"><img src="https://drive.google.com/uc?export=view&id=1DLTEXBjc3D089UCgfbNZOzbCdrdwf3nP"></a></li>
+                    <li><a href="/"><img src="https://drive.google.com/uc?export=view&id=1GfLifCDqZ0Kqb0GqnD-AinLkH5l9Huk6"></a></li>
+                    <li><a href="/"><img src="https://drive.google.com/uc?export=view&id=1DjSx_NtrRIdhu9M_bfL6KcBZgzZWSF-6"></a></li>
+				</ul>
+				<div class="termPrivacyFooter">
+					<a href="/">Privacy Policy</a></li>
+					<a href="/">Term of Service</a></li>
+					<a href="/">About us</a></li>
+				</div>
+			</div>
+
+			<div class="footerBottom">
+				<p>
+					"PlayStation Family Mark," "PS5 logo" and "PS4 logo" are registered trademarks or trademarks of Sony
+					Interactive Entertainment Inc. Epic, Epic Games, Epic Games Store, the Epic Games Store logo, and Epic Online Services are trademarks
+					and/or registered trademarks of Epic Games. All other trademarks are the property of their respective
+					owners.
+				</p>
+			</div>
+
+			<div class="logoFooter2">
+				<img src="https://drive.google.com/uc?export=view&id=1Oj0j4Iy8wS2A97tvKdflfO1v2xCxMGWb" alt="">
+			</div>
+
+    	</footer>
+    
+</body>
+<script src="scriptCharacter.js"></script>
+</html>

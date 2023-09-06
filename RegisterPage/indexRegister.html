@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Jenshin ImpekZ</title>
+	<link data-n-head="true" rel="icon" type="image/x-icon" href="https://drive.google.com/uc?export=view&id=1B7y58WTRNrf3XxTHDKI7CWvMVqMZ4k19">
+    <link rel="stylesheet" href="styleRegister.css">
+</head>
+
+<body>
+    <header>
+        <div class="navLogo">
+             <img src="https://drive.google.com/uc?export=view&id=1B7y58WTRNrf3XxTHDKI7CWvMVqMZ4k19" class="nav_logo" />
+        </div>
+        <div class="hamburger">
+             <div class="line"></div>
+             <div class="line"></div>
+             <div class="line"></div>
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="../HomePage/indexHome.html">Home</a></li>
+                <li><a href="../CharacterPage/indexCharacter.html">Character</a></li>
+                <li><a href="../MapsPage/indexMaps.html">Map</a></li>
+                <li><a href="../AboutPage/indexAboutGame.html">About</a></li>
+                <li><a href="../RegisterPage/indexRegister.html" class="active">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <script>
+        hamburger = document.querySelector(".hamburger");
+        hamburger.onclick = function () {
+            navBar = document.querySelector(".nav-bar")
+            navBar.classList.toggle("active");
+        }
+    </script>
+
+    <div class="registrationPage">
+        <div class="form">
+            <form class="registerForm">
+                <h1 class="title">Registration</h1>
+                <h3>Name</h3>
+                <input class="input" type="text" placeholder="Name" id="inputText">
+                <div class="error" id="nameError"></div>
+                <h3>Email</h3>
+                <input class="input" type="email" placeholder="Email" id="inputEmail">
+                <div class="error" id="emailError"></div>
+                <h3>Password</h3>
+                <input class="input" type="password" placeholder="Password" id="inputPassword">
+                <div class="error" id="passwordError"></div>
+                <h3>Age</h3>
+                <input class="input" type="number" placeholder="Age" id="inputNumber">
+                <div class="error" id="ageError"></div>
+                <label class="checkbox" for="myCheckBoxId">
+                    <input type="checkbox" name="checkboxTermofService" id="checkBoxId">
+                    I have agree the Term of Service & Privacy Policy
+                </label>
+                <div class="error" id="checkBoxError"></div>
+                
+                <button id="buttonSubmit">Register</button>
+                <div class="temp">Or register using social media</div>
+                <img src="https://drive.google.com/uc?export=view&id=1_92aQ3Yyd0zaudaWkB5EHjGFmRU55Myd" class="iconn">
+            </form>
+        </div>
+    </div>
+    <footer>
+        <div class="footer">
+            <div class="logoFooter">
+                <img src="https://drive.google.com/uc?export=view&id=1B7y58WTRNrf3XxTHDKI7CWvMVqMZ4k19" alt="">
+            </div>
+
+            <ul class="socialFooter">
+                <li><a href="/"><img src="https://drive.google.com/uc?export=view&id=1OZdSSuOloRSF15xD4mdcenhA0lFgawtC"></a></li>
+                <li><a href="/"><img src="https://drive.google.com/uc?export=view&id=1b9Vw2h7Mb5DRsoHlXtsh899q7s5CXclN"></a></li>
+                <li><a href="/"><img src="https://drive.google.com/uc?export=view&id=1DLTEXBjc3D089UCgfbNZOzbCdrdwf3nP"></a></li>
+                <li><a href="/"><img src="https://drive.google.com/uc?export=view&id=1GfLifCDqZ0Kqb0GqnD-AinLkH5l9Huk6"></a></li>
+                <li><a href="/"><img src="https://drive.google.com/uc?export=view&id=1DjSx_NtrRIdhu9M_bfL6KcBZgzZWSF-6"></a></li>
+            </ul>
+
+            <div class="termPrivacyFooter">
+                <a href="/">Privacy Policy</a></li>
+                <a href="/">Term of Service</a></li>
+                <a href="/">About us</a></li>
+            </div>
+        </div>
+
+        <div class="footerBottom">
+            <p>
+                "PlayStation Family Mark," "PS5 logo" and "PS4 logo" are registered trademarks or trademarks of Sony
+                Interactive Entertainment Inc. Epic, Epic Games, Epic Games Store, the Epic Games Store logo, and Epic Online Services are trademarks
+                and/or registered trademarks of Epic Games. All other trademarks are the property of their respective
+                owners.
+            </p>
+        </div>
+
+        <div class="logoFooter2">
+            <img src="https://drive.google.com/uc?export=view&id=1Oj0j4Iy8wS2A97tvKdflfO1v2xCxMGWb" alt="">
+        </div>
+    </footer>
+
+</body>
+
+<script src="scriptRegister.js"></script>
+</html>
